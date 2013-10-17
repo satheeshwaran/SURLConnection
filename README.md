@@ -9,6 +9,3 @@ It is very easy to use.
     SURLConnection  *conn = [[SURLConnection alloc] init];
     
     NSData *responseData  = [conn sendSynchronousRequest:request returningResponse:nil error:nil];
-    //add error and response if you want to handle
-    
-    NSError *jsonParsingError;
